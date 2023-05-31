@@ -31,28 +31,52 @@ public class player_controller : MonoBehaviour
     {
         if(controller.isGrounded)
         {
-            if(Input.GetKey(KeyCode.W))
+            if(Input.GetKey(KeyCode.W)&& Input.GetKey(KeyCode.A) == false && Input.GetKey(KeyCode.D) == false)
             {
                 moveDirection = Vector3.forward * speed;
                 transform.eulerAngles = new Vector3(0, 180, 0);
                 anim.SetInteger("transition",1);
             }
-            if(Input.GetKey(KeyCode.S))
+            else if(Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
             {
                 moveDirection = Vector3.forward * speed;
-                transform.eulerAngles = new Vector3(0, 0, 0);
+                transform.eulerAngles = new Vector3(0, 135, 0);
                 anim.SetInteger("transition",1);
             }
-            if(Input.GetKey(KeyCode.A))
+            else if(Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
+            {
+                moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 225, 0);
+                anim.SetInteger("transition",1);
+            }
+            else if(Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W) == false && Input.GetKey(KeyCode.S)==false)
             {
                 moveDirection = Vector3.forward * speed;
                 transform.eulerAngles = new Vector3(0, 90, 0);
                 anim.SetInteger("transition",1);
             }
-            if(Input.GetKey(KeyCode.D))
+            else if(Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.W)== false && Input.GetKey(KeyCode.S)==false)
             {
                 moveDirection = Vector3.forward * speed;
                 transform.eulerAngles = new Vector3(0, 270, 0);
+                anim.SetInteger("transition",1);
+            }
+            else if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A) == false && Input.GetKey(KeyCode.D) == false)
+            {
+                moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                anim.SetInteger("transition",1);
+            }
+            else if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A))
+            {
+                moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 45, 0);
+                anim.SetInteger("transition",1);
+            }
+            else if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D))
+            {
+                moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 315, 0);
                 anim.SetInteger("transition",1);
             }
             if(Input.GetKeyUp(KeyCode.W))
@@ -60,17 +84,17 @@ public class player_controller : MonoBehaviour
                 moveDirection = Vector3.zero;
                 anim.SetInteger("transition",0);
             }
-            if(Input.GetKeyUp(KeyCode.S))
+            else if(Input.GetKeyUp(KeyCode.S))
             {
                 moveDirection = Vector3.zero;
                 anim.SetInteger("transition",0);
             }
-            if(Input.GetKeyUp(KeyCode.A))
+            else if(Input.GetKeyUp(KeyCode.A))
             {
                 moveDirection = Vector3.zero;
                 anim.SetInteger("transition",0);
             }
-            if(Input.GetKeyUp(KeyCode.D))
+            else if(Input.GetKeyUp(KeyCode.D))
             {
                 moveDirection = Vector3.zero;
                 anim.SetInteger("transition",0);

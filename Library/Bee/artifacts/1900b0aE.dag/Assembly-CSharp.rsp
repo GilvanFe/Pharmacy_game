@@ -364,6 +364,7 @@
 "Assets/Packs/Water_Pack/Standard Assets/Environment/Water/Water/Scripts/Water.cs"
 "Assets/Packs/Water_Pack/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs"
 "Assets/Packs/Water_Pack/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs"
+"Assets/scripts/DetecaoProximidade.cs"
 "Assets/scripts/player_controller.cs"
 -langversion:9.0
 
