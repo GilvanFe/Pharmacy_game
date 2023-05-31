@@ -1,0 +1,807 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.23466) 64bit Professional' Language: 'pt' Physical Memory: 24491 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50262
+Successfully changed project path to: C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game
+C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17032] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 3635881884 [EditorId] 3635881884 [Version] 1048832 [Id] WindowsEditor(7,Gilvan-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17032] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 3635881884 [EditorId] 3635881884 [Version] 1048832 [Id] WindowsEditor(7,Gilvan-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 83.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8072 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006150 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (652ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (481ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005064 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gilva\OneDrive\Documentos\GitHub\Pharmacy_game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gilva\OneDrive\Documentos\GitHub\Pharmacy_game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3605 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (0.6 MB). Loaded Objects now: 4084.
+Memory consumption went from 147.8 MB to 147.2 MB.
+Total: 3.446500 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.221100 ms MarkObjects: 2.243800 ms  DeleteObjects: 0.670000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 812.338426 seconds.
+  path: Assets/Packs/Environment/Nature/bush01_Textures/translucency_gloss.png
+  artifactKey: Guid(cf9b478cf6fc37d4db53b2670e435165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Nature/bush01_Textures/translucency_gloss.png using Guid(cf9b478cf6fc37d4db53b2670e435165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23ba141030d3d695dfa3519e0523135') in 0.074603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.885558 seconds.
+  path: Assets/Packs/Environment/Nature/bush03_Textures/translucency_gloss.png
+  artifactKey: Guid(5aa3e304ca031934dab7713a359e61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Nature/bush03_Textures/translucency_gloss.png using Guid(5aa3e304ca031934dab7713a359e61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d9dd2de2635352b5fc268cfc1ad39a') in 0.010011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530403 seconds.
+  path: Assets/Packs/Environment/Nature/bush06_Textures/translucency_gloss.png
+  artifactKey: Guid(a1d7ed651121f6b438e5ac9602ede8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Nature/bush06_Textures/translucency_gloss.png using Guid(a1d7ed651121f6b438e5ac9602ede8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bac5ed2a7627536541a7e76d60710e') in 0.007098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.084956 seconds.
+  path: Assets/Packs/Environment/Nature/tree04_Textures/translucency_gloss.png
+  artifactKey: Guid(867a9bb6289eac041a67ad5218a3307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Nature/tree04_Textures/translucency_gloss.png using Guid(867a9bb6289eac041a67ad5218a3307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e76efd966365264d23fd764f22c832') in 0.008113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.148888 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/barrel.002.fbx
+  artifactKey: Guid(d4f5907888f66e544be3ae4e706c453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/barrel.002.fbx using Guid(d4f5907888f66e544be3ae4e706c453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ebe1f9ba5b5fc263d6e1bafd65276b') in 0.336833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/bed.001.fbx
+  artifactKey: Guid(556b7e13935e0184c942d8854e5bf845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/bed.001.fbx using Guid(556b7e13935e0184c942d8854e5bf845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbb69239ba6174d1970b843904d6c1d') in 0.044825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/big_fence.002.fbx
+  artifactKey: Guid(d50b1d4eade839b4da28ae01263836b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/big_fence.002.fbx using Guid(d50b1d4eade839b4da28ae01263836b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a63437030c698aad8568ba9606c67b7') in 0.021782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/book.001.fbx
+  artifactKey: Guid(30eadeff2df12ad4fa3af72b710dc5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/book.001.fbx using Guid(30eadeff2df12ad4fa3af72b710dc5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4706378bbd26b2ff5b4acbd5e1f9d4') in 0.028023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.004.fbx
+  artifactKey: Guid(bae4b55fee53f654caed6dacfa11ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.004.fbx using Guid(bae4b55fee53f654caed6dacfa11ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6140501ac3667c89ac3c6f87c973cd3a') in 0.244817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.002.fbx
+  artifactKey: Guid(8015ee2bb42dfb648b10175f69bdc1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.002.fbx using Guid(8015ee2bb42dfb648b10175f69bdc1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807f511f0c28747337fc6f04a25599f8') in 0.019318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/books.003.fbx
+  artifactKey: Guid(369d83d4827b74b40878e1972152ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/books.003.fbx using Guid(369d83d4827b74b40878e1972152ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad94a4cd759a57ea39405147400b558d') in 0.023130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/bed.fbx
+  artifactKey: Guid(f8b9ad221ae1d8240a94aa7066b0a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/bed.fbx using Guid(f8b9ad221ae1d8240a94aa7066b0a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bf7971b4448f344e7ee06ac983ce92') in 0.021473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.007.fbx
+  artifactKey: Guid(ee2b70e92033aab4398f79d313efbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.007.fbx using Guid(ee2b70e92033aab4398f79d313efbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99bed9969843041f9225f8540db3db7') in 0.020970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/books.001.fbx
+  artifactKey: Guid(ed28833c948158545bbf2b0cc10ba257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/books.001.fbx using Guid(ed28833c948158545bbf2b0cc10ba257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49053604a2baeec6685199f4eed930f') in 0.022893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.278573 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.013.fbx
+  artifactKey: Guid(65d2d25768c8f0d47bee3e3d85a613d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.013.fbx using Guid(65d2d25768c8f0d47bee3e3d85a613d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7d41b577bbe6078926faab072590c8') in 0.020081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.024.fbx
+  artifactKey: Guid(a93d1e14f08725b4e84c2bc4b39dccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.024.fbx using Guid(a93d1e14f08725b4e84c2bc4b39dccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08daf79167b90659f1248da782e92796') in 0.017022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.026.fbx
+  artifactKey: Guid(990de05007dd0274f83ebd6089007080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.026.fbx using Guid(990de05007dd0274f83ebd6089007080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87b448e0b028a4471cdb78b05d97204') in 0.019604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.018.fbx
+  artifactKey: Guid(b9b0ce20a842fe7449d9097a93cabe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.018.fbx using Guid(b9b0ce20a842fe7449d9097a93cabe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decba7c2d3409b312784846d733bdab8') in 0.017247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.021.fbx
+  artifactKey: Guid(15c9e8fd63b357d4fb10466d071d3d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.021.fbx using Guid(15c9e8fd63b357d4fb10466d071d3d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082892ec2322632795f0dd1dcafd4325') in 0.017935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.014.fbx
+  artifactKey: Guid(db317f9a3af0935419bfcc78156d1209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/brick.014.fbx using Guid(db317f9a3af0935419bfcc78156d1209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6104cb9b70d888be037c7b7017fae65') in 0.016469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200742 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/candle.001.fbx
+  artifactKey: Guid(b4f2a850d81eb8540b1f9e9d19d0e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/candle.001.fbx using Guid(b4f2a850d81eb8540b1f9e9d19d0e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5de9eeeef2d058fb277982431ba58c') in 0.127269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/cutting_board.fbx
+  artifactKey: Guid(3d3c0d4c23e0c7840ae962dea4a7d987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/cutting_board.fbx using Guid(3d3c0d4c23e0c7840ae962dea4a7d987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d7cc75914f95109df9fde110767b01') in 0.015555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/chest_top.fbx
+  artifactKey: Guid(e129cb2f91e2663438d9b61f3cf6dea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/chest_top.fbx using Guid(e129cb2f91e2663438d9b61f3cf6dea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70209028705b06b021b4a2278baf9492') in 0.023774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/chair.004.fbx
+  artifactKey: Guid(735fa55e746bf674bb9b2bb9d03eacbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/chair.004.fbx using Guid(735fa55e746bf674bb9b2bb9d03eacbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f74d8bd1198a05cec5b74c723ee744') in 0.019165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/chair_canvas.fbx
+  artifactKey: Guid(f47807d1df4a44044bc2bff0dca48c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/chair_canvas.fbx using Guid(f47807d1df4a44044bc2bff0dca48c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80ee1bd5d0297abb38bb01833e1bd02') in 0.023284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/cupboard.001.fbx
+  artifactKey: Guid(faf06b3544156e7498367ca2c9e95040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/cupboard.001.fbx using Guid(faf06b3544156e7498367ca2c9e95040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215d1fa0b753b2456b167e97bca68702') in 0.023473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.787574 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/fence_half.001.fbx
+  artifactKey: Guid(18516a93656798240b99ccdbcb6c81b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/fence_half.001.fbx using Guid(18516a93656798240b99ccdbcb6c81b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd909038dc6453e52d0d1e199194ad5') in 0.019051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/half_tree.001.fbx
+  artifactKey: Guid(eb368e2d1b5d2dd4a818c04e3083e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/half_tree.001.fbx using Guid(eb368e2d1b5d2dd4a818c04e3083e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be40b35f0ce5b500bb3436569dad7e7') in 0.048935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/granite_panel.fbx
+  artifactKey: Guid(ba61bfa51a320a544800b503cf8ce0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/granite_panel.fbx using Guid(ba61bfa51a320a544800b503cf8ce0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02e4af24ac3eb88fce240ad593c44f') in 0.019328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/fence_half.003.fbx
+  artifactKey: Guid(165bb34e8e0fdc6429bddb2fe511399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/fence_half.003.fbx using Guid(165bb34e8e0fdc6429bddb2fe511399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7540d3490e57693b3da94722fa69b55e') in 0.020865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/rack_for_weapons.001.fbx
+  artifactKey: Guid(dace15093a49b0940902cd768cd3b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/rack_for_weapons.001.fbx using Guid(dace15093a49b0940902cd768cd3b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a442e58145702de3b33328c2a26da4ea') in 0.026578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/half_tree.fbx
+  artifactKey: Guid(2dbd510f8901f5c42bfab460bd7d54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/half_tree.fbx using Guid(2dbd510f8901f5c42bfab460bd7d54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd0529acafc64f279925d3ba6bd79e6') in 0.031353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/platform.005.fbx
+  artifactKey: Guid(92ea8ce96d76b3844a63e6bf7917339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/platform.005.fbx using Guid(92ea8ce96d76b3844a63e6bf7917339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c7be63aef1843da30873306bc1c530') in 0.025683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/pile_of_planks.002.fbx
+  artifactKey: Guid(273480739e8492e4391274509d36196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/pile_of_planks.002.fbx using Guid(273480739e8492e4391274509d36196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5898265fb4fd2cd1987750556d7574') in 0.020847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.435872 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/shelf.fbx
+  artifactKey: Guid(bc87015028369dd44bd83a71543d9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/shelf.fbx using Guid(bc87015028369dd44bd83a71543d9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9191212cd0681bab69c0d3c3c317246') in 0.019767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/spoon.fbx
+  artifactKey: Guid(64704605f89d97f43821f289ee58f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/spoon.fbx using Guid(64704605f89d97f43821f289ee58f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e059b7940b3ed99fc234e4fa6534dac') in 0.020469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/spice_bag.fbx
+  artifactKey: Guid(fe3199330e5c5514bbb23aa44c07ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/spice_bag.fbx using Guid(fe3199330e5c5514bbb23aa44c07ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de48731082b94283815c9d55ca19b91b') in 0.030101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower.007.fbx
+  artifactKey: Guid(6ce56d375d138d84e929cc320a3753b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower.007.fbx using Guid(6ce56d375d138d84e929cc320a3753b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff1d1622a88c9fc5946541640fe90e6') in 0.015310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_quarter_wall.fbx
+  artifactKey: Guid(092219fc9014cd64286e3d02c1002d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_quarter_wall.fbx using Guid(092219fc9014cd64286e3d02c1002d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a595e3b7b037fdff00565ec6d28a3d') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_wall_detailed_corner.001.fbx
+  artifactKey: Guid(e7e769be1c221e7418da8f68c701dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_wall_detailed_corner.001.fbx using Guid(e7e769be1c221e7418da8f68c701dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f57514c03f267bea635d017d5ed9d') in 0.016663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_wall.fbx
+  artifactKey: Guid(4b87d04480274ae49a51f1ae71ec61af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_wall.fbx using Guid(4b87d04480274ae49a51f1ae71ec61af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3d046a02d959d55c420184fc4842a5') in 0.015380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_half_wall_corner.fbx
+  artifactKey: Guid(f603af1bb582bce43a632d333f40b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_half_wall_corner.fbx using Guid(f603af1bb582bce43a632d333f40b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc1f75bc3641e4e5d08e56def618f39') in 0.018924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/table.002.fbx
+  artifactKey: Guid(7a50a1189f47a16439f1ce574698de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/table.002.fbx using Guid(7a50a1189f47a16439f1ce574698de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9218577b1cf16a0614883cc204c4b5c') in 0.021544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_half_wall_bottom.001.fbx
+  artifactKey: Guid(b397f94ff1edf684b912a4177090c363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_half_wall_bottom.001.fbx using Guid(b397f94ff1edf684b912a4177090c363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4772f64689a44b60a9bd19b336ef33') in 0.017960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_half_gate.001.fbx
+  artifactKey: Guid(edf02d38e9bcf344b86b4911edd57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/stone_half_gate.001.fbx using Guid(edf02d38e9bcf344b86b4911edd57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b772e1de1861dbc92200cfe52da158') in 0.032868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.319248 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_small.001.fbx
+  artifactKey: Guid(99b51ae0f8000f44eb95754b02aaf18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_small.001.fbx using Guid(99b51ae0f8000f44eb95754b02aaf18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1058c37acbc3e22888a8f7205e8c8696') in 0.019879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_small_window.001.fbx
+  artifactKey: Guid(46f174c8fe102e84a9758c50d20faf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_small_window.001.fbx using Guid(46f174c8fe102e84a9758c50d20faf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d50a149236e7db907ec098ccb6f078') in 0.025693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_small_window.fbx
+  artifactKey: Guid(96828ec809d56f14984fb94b4f0ce622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_small_window.fbx using Guid(96828ec809d56f14984fb94b4f0ce622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81679f64586ba8cbfb6b54f6e6b8cf9') in 0.021605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_stair_wood.fbx
+  artifactKey: Guid(8f768462890fd564f9f7ddc084b418a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_stair_wood.fbx using Guid(8f768462890fd564f9f7ddc084b418a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3c6ca341c35f232a14f20024db0a71') in 0.017790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034112 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_window.003.fbx
+  artifactKey: Guid(b80aaed3af693c74d9a66ecc1530bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_window.003.fbx using Guid(b80aaed3af693c74d9a66ecc1530bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f435cfc425df4ed305c1c3fa0c00ae6c') in 0.018806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_window.004.fbx
+  artifactKey: Guid(fe0083228423edf4cb481e2804ab7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/tower_window.004.fbx using Guid(fe0083228423edf4cb481e2804ab7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7507c2b7a1d2b58710ff5e4b3e124ef') in 0.026536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/vase.fbx
+  artifactKey: Guid(23cd3c3400c33734288b53d8ddb79846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/vase.fbx using Guid(23cd3c3400c33734288b53d8ddb79846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8084fbad8dafb8a94f449ba6573ce83') in 0.019281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wall_passage.001.fbx
+  artifactKey: Guid(18ec0187061ee31419a804e157067c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wall_passage.001.fbx using Guid(18ec0187061ee31419a804e157067c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8946304fbbd78f4980f9b8be755b2ea3') in 0.028394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.980601 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wall_short.001.fbx
+  artifactKey: Guid(bb2e115ff97c1e5428effafe25ac320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wall_short.001.fbx using Guid(bb2e115ff97c1e5428effafe25ac320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f54b8c189288fb1b7a8ef429a0c009') in 0.021797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/windbreak.001.fbx
+  artifactKey: Guid(53dc01d313e64734395aae9d235e7e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/windbreak.001.fbx using Guid(53dc01d313e64734395aae9d235e7e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26ce756ccc58d0a78f42e044798592f') in 0.022019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/windbreak.fbx
+  artifactKey: Guid(f30c5ded026ca1f4da016d61f9ccfe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/windbreak.fbx using Guid(f30c5ded026ca1f4da016d61f9ccfe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06a7149751a705e77792c21063cf339') in 0.020073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wall_short_no_side.001.fbx
+  artifactKey: Guid(f09c986c8b53fee40af4dc0fd95d77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wall_short_no_side.001.fbx using Guid(f09c986c8b53fee40af4dc0fd95d77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190e5b248eda9824f8ac10362976b6c7') in 0.015892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/windbreak_expensive.001.fbx
+  artifactKey: Guid(1c1e90b9a3e15d247a70010ef3fd453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/windbreak_expensive.001.fbx using Guid(1c1e90b9a3e15d247a70010ef3fd453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66eb4a65bfb7d6c465cb6ce4ecd9396b') in 0.021126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.975661 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_bridge.003.fbx
+  artifactKey: Guid(fd89c30888f581a4e9909206f194f69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_bridge.003.fbx using Guid(fd89c30888f581a4e9909206f194f69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add3c151a9db3fc0227036720f13c5c7') in 0.023314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_column.008.fbx
+  artifactKey: Guid(8dd63d28a44a0ab41a7f7f3077d9c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_column.008.fbx using Guid(8dd63d28a44a0ab41a7f7f3077d9c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6141c73e9f73f9c4e1f72172c9e63bb') in 0.025064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_column.004.fbx
+  artifactKey: Guid(e7c782f134d9a3f4baf75f2e7a94deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_column.004.fbx using Guid(e7c782f134d9a3f4baf75f2e7a94deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c06cbfa7a25aa4b854bc7740889e52') in 0.019962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_bridge.004.fbx
+  artifactKey: Guid(100d55b4778366f4599f73020977278f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_bridge.004.fbx using Guid(100d55b4778366f4599f73020977278f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd84bb4417ed4698717f8dc684605754') in 0.023145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.000.fbx
+  artifactKey: Guid(63d855eae5ef67342b5e1dee00fa21e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.000.fbx using Guid(63d855eae5ef67342b5e1dee00fa21e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6681f2452b14fbad1aa227eea2758da0') in 0.021815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.010.fbx
+  artifactKey: Guid(80dc34846f7fd904ba096d6a666bbefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.010.fbx using Guid(80dc34846f7fd904ba096d6a666bbefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605cdef7794e8e1d65a4bc68fba9ec79') in 0.020306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.011.fbx
+  artifactKey: Guid(512ccb0f966ac134598fc8e117c1a235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.011.fbx using Guid(512ccb0f966ac134598fc8e117c1a235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d9fba26afb4ba13a4302e4de3eb857') in 0.017384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_column.fbx
+  artifactKey: Guid(9de89c6bc8b97734ab0d9c5d0c8c7348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_column.fbx using Guid(9de89c6bc8b97734ab0d9c5d0c8c7348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f06a12bde1bec95519e80a6112e7ef') in 0.016487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.923526 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.017.fbx
+  artifactKey: Guid(1af03aa8c17dada4bac6e9946648dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.017.fbx using Guid(1af03aa8c17dada4bac6e9946648dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b783575bda86c8ce0a27c472122f2fd') in 0.026459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.018.fbx
+  artifactKey: Guid(32955392b5f22614a8ab4aab9442b8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall.018.fbx using Guid(32955392b5f22614a8ab4aab9442b8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb360c70173363283ce41cd18ca76fef') in 0.029469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_enter.004.fbx
+  artifactKey: Guid(d7b5a015e85bd4f41b4e79c786630d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_enter.004.fbx using Guid(d7b5a015e85bd4f41b4e79c786630d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3def341f8f1819fb8e787c7a2dbdb3') in 0.023551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_enter.001.fbx
+  artifactKey: Guid(4c535b67cafc5ac40bd0f3ede940d10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_enter.001.fbx using Guid(4c535b67cafc5ac40bd0f3ede940d10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dbdd9e723607da07b0c667a9c3cd94') in 0.018481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.457435 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_window.004.fbx
+  artifactKey: Guid(e23cdbb8726cbb441a2dbbcdc8142b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_window.004.fbx using Guid(e23cdbb8726cbb441a2dbbcdc8142b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7608c0e9728d2b6e33d1ba69a55bf540') in 0.025722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_window.005.fbx
+  artifactKey: Guid(eb116010079ad5241bce706a487c93d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/FBX/wood_wall_window.005.fbx using Guid(eb116010079ad5241bce706a487c93d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1372f5f3b6ff2e49ac0a9b9b1be84ef') in 0.030323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.012787 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/timber_2_fixed_d.mat
+  artifactKey: Guid(4bc52937c3c17274f942302c482c69ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/timber_2_fixed_d.mat using Guid(4bc52937c3c17274f942302c482c69ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74a5aed39cdd0da82b4a44c2926dff2') in 0.031845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wood_4_d.mat
+  artifactKey: Guid(8fc7164692cb91340b5ced7843fef0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wood_4_d.mat using Guid(8fc7164692cb91340b5ced7843fef0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb30fc8f4182a90ccd387bfdca07391') in 0.012970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wooden-boards-texture_d.mat
+  artifactKey: Guid(f50fd987009300249ad223e750bb4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wooden-boards-texture_d.mat using Guid(f50fd987009300249ad223e750bb4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c0bfa466a87ddf83f0e75f975b8f17') in 0.014070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wood_3_d.mat
+  artifactKey: Guid(941f25881004d8f44ba7da0f339c7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wood_3_d.mat using Guid(941f25881004d8f44ba7da0f339c7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd5e7a0c03d7f0d8462e6f2446bfc88') in 0.012267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wax.mat
+  artifactKey: Guid(f98fac1cf2116764bb0b3f63b9fd4050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/wax.mat using Guid(f98fac1cf2116764bb0b3f63b9fd4050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22065a7f0e9a50c06e1912c1f72f433') in 0.009528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.883046 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/fabric_bag_2_d.mat
+  artifactKey: Guid(8723e51378391314f9970fb4ddb11004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/fabric_bag_2_d.mat using Guid(8723e51378391314f9970fb4ddb11004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1744ade764bfebb147fb3b7f8d38205e') in 0.013234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/iron.mat
+  artifactKey: Guid(01fe39fbda1dcd94a91cba98e3847538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/iron.mat using Guid(01fe39fbda1dcd94a91cba98e3847538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c759dd68b98ea20bfb2ab7464c9392d') in 0.012993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/spice.mat
+  artifactKey: Guid(d634f695d7fc3b2479eaec83bc044d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/spice.mat using Guid(d634f695d7fc3b2479eaec83bc044d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366dec9418ae0c07bc1a871a725b6bdd') in 0.012693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/shingle_1_d.mat
+  artifactKey: Guid(aa92370f24b71d4428525f91cfb88005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Materials/shingle_1_d.mat using Guid(aa92370f24b71d4428525f91cfb88005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54b6dd326405184696c2f4fb979e2a6') in 0.011720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.791267 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/bark_1_s.png
+  artifactKey: Guid(1287ed30e653af04fb5a889b8f29348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/bark_1_s.png using Guid(1287ed30e653af04fb5a889b8f29348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cd72c00dab051015fb9ed587218a07') in 0.011840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/bark_2_o.png
+  artifactKey: Guid(79f2173925ae4be4cb30a812b9f9feff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/bark_2_o.png using Guid(79f2173925ae4be4cb30a812b9f9feff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4142cfb0f2d3316eee39d35f77b0f9b') in 0.008655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/fabric_1_s.png
+  artifactKey: Guid(bfc8039060da10c47b136fec7a4da377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/fabric_1_s.png using Guid(bfc8039060da10c47b136fec7a4da377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb66d8d77a2c6481f86c0df4ca2f73c') in 0.009645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/fabric_3_s.png
+  artifactKey: Guid(768afd8565d26824d8dfde4c49b17c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/fabric_3_s.png using Guid(768afd8565d26824d8dfde4c49b17c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fd991964691aa30b655865622c1d47') in 0.007927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/bark_2_n.png
+  artifactKey: Guid(f03ee5c31a543524eb0c660be00174c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/bark_2_n.png using Guid(f03ee5c31a543524eb0c660be00174c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f416ade11dfc74ec92fe29fdbc79bb9') in 0.010382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/fabric_1_d.png
+  artifactKey: Guid(dbf550463e281604c82894eabee62a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/fabric_1_d.png using Guid(dbf550463e281604c82894eabee62a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903582926846dbf66ede332955b71e3f') in 0.008980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/books_paper_s.png
+  artifactKey: Guid(9e592871dce9a9640a40e2978fcb392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/books_paper_s.png using Guid(9e592871dce9a9640a40e2978fcb392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862eabe9a0440b620db131a16a4c6dcf') in 0.010181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/books_paper_n.png
+  artifactKey: Guid(01784687c00cdb54385ebcc0c4bb12ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/books_paper_n.png using Guid(01784687c00cdb54385ebcc0c4bb12ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80edecd942486f1c7295c53ec5a0e24') in 0.010200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/clay_1_o.png
+  artifactKey: Guid(21cae62b71868374d85285604ab3f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/clay_1_o.png using Guid(21cae62b71868374d85285604ab3f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2138f4c46158f40923069f989c684b4') in 0.008841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.638356 seconds.
+  path: Assets/Packs/Environment/MedievalCastlePackLite/TsunoaGames/MedievalCastlePack/Walls/t-road-with-borders.obj
+  artifactKey: Guid(8b2f72e7b516c0d41804ae0b7704480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Environment/MedievalCastlePackLite/TsunoaGames/MedievalCastlePack/Walls/t-road-with-borders.obj using Guid(8b2f72e7b516c0d41804ae0b7704480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c4f949ed2771c65a8f179d1dfcc4c2') in 0.019278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.627898 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Bilboard_1E.prefab
+  artifactKey: Guid(ea4757a70ebfed4468cd2ba937ce980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Bilboard_1E.prefab using Guid(ea4757a70ebfed4468cd2ba937ce980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b37fd8d81e85d03a40625abf42cd91a') in 0.116151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Rock_Cluster_1C.prefab
+  artifactKey: Guid(401aa6fa1f294c54a915af5d306e5137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Rock_Cluster_1C.prefab using Guid(401aa6fa1f294c54a915af5d306e5137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56de5479507cf5e484f2a8f325fa984') in 0.016381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Streetsign_3D.prefab
+  artifactKey: Guid(dc8617f102ef1934dad37b706df47e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Streetsign_3D.prefab using Guid(dc8617f102ef1934dad37b706df47e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bf850ed37a48f5b10f70152509eb83') in 0.011386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Tree_7C.prefab
+  artifactKey: Guid(b5a3243d18d43d4489e81103fae5d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Tree_7C.prefab using Guid(b5a3243d18d43d4489e81103fae5d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a817e9e896f084ca210a410c0278ee22') in 0.012198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Road_3Y.prefab
+  artifactKey: Guid(e6ef01c18f3b9b647b9baaec4b8cb1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Road_3Y.prefab using Guid(e6ef01c18f3b9b647b9baaec4b8cb1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3b3dee1888fbb6530427ac4da375a1') in 0.012045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Road_1Z.prefab
+  artifactKey: Guid(a02b698ee02146848af3e1435a174126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Road_1Z.prefab using Guid(a02b698ee02146848af3e1435a174126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f055f11a722b7a178c3c3d2304fd65a') in 0.013100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Pavement_Special_1A_12X12.prefab
+  artifactKey: Guid(6974bfebd354b4d4abbfc516d68a2774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Pavement_Special_1A_12X12.prefab using Guid(6974bfebd354b4d4abbfc516d68a2774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc81e55258619d4af64073207fc30b9f') in 0.013226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Gas_Pump_1A.prefab
+  artifactKey: Guid(09e575d3fd166f4489c573635ce22f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Gas_Pump_1A.prefab using Guid(09e575d3fd166f4489c573635ce22f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8718de821730175e6a8d28365883bf76') in 0.010741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Rock_Cluster_1A.prefab
+  artifactKey: Guid(bba84dffd74116f409ff2fdb22a8855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Rock_Cluster_1A.prefab using Guid(bba84dffd74116f409ff2fdb22a8855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edb498d755f427c1603c78742ba7040') in 0.011938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Tree_6B.prefab
+  artifactKey: Guid(c2d0aff228303534ebf73d11faa6fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Tree_6B.prefab using Guid(c2d0aff228303534ebf73d11faa6fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d790ac5c76940bc0841762898b8e90') in 0.015470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Tree_7A.prefab
+  artifactKey: Guid(2e13d51711ba7be49a2291044d249a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Tree_7A.prefab using Guid(2e13d51711ba7be49a2291044d249a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0ebc5c3bd689235a7ac435e540f21d') in 0.012817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Car_18C.prefab
+  artifactKey: Guid(dec6e1dfe0585314386ba9c3b833424a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Car_18C.prefab using Guid(dec6e1dfe0585314386ba9c3b833424a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e997644a1bdb5b856b8a56ddd8e684') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Pavement_Rounded_2E_8X8.prefab
+  artifactKey: Guid(eb833c28482ce2f459dfdf7aa225bb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Pavement_Rounded_2E_8X8.prefab using Guid(eb833c28482ce2f459dfdf7aa225bb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f773c83abe1cd64276e26a835cb175') in 0.011401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Streetsign_3E.prefab
+  artifactKey: Guid(b6c857a625d992540a6520f3c0549972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Streetsign_3E.prefab using Guid(b6c857a625d992540a6520f3c0549972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fcaa959ec873f4e09257c486283cf3') in 0.014762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Gas_Tank_1A.prefab
+  artifactKey: Guid(3f6845443ff1c26428a90cf51e082da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Gas_Tank_1A.prefab using Guid(3f6845443ff1c26428a90cf51e082da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf05808f25ff724883c03822cf33ecea') in 0.014169 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

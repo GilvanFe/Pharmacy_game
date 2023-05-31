@@ -11,6 +11,7 @@ public class player_controller : MonoBehaviour
     public float gravity;
     public float rotSpeed;
 
+
     private float rot;
     private Vector3 moveDirection;
     // Start is called before the first frame update
@@ -24,6 +25,7 @@ public class player_controller : MonoBehaviour
     void Update()
     {
         Move();
+
     }
     void Move()
     {
@@ -32,6 +34,25 @@ public class player_controller : MonoBehaviour
             if(Input.GetKey(KeyCode.W))
             {
                 moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 180, 0);
+                anim.SetInteger("transition",1);
+            }
+            if(Input.GetKey(KeyCode.S))
+            {
+                moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                anim.SetInteger("transition",1);
+            }
+            if(Input.GetKey(KeyCode.A))
+            {
+                moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 90, 0);
+                anim.SetInteger("transition",1);
+            }
+            if(Input.GetKey(KeyCode.D))
+            {
+                moveDirection = Vector3.forward * speed;
+                transform.eulerAngles = new Vector3(0, 270, 0);
                 anim.SetInteger("transition",1);
             }
             if(Input.GetKeyUp(KeyCode.W))
@@ -39,13 +60,30 @@ public class player_controller : MonoBehaviour
                 moveDirection = Vector3.zero;
                 anim.SetInteger("transition",0);
             }
+            if(Input.GetKeyUp(KeyCode.S))
+            {
+                moveDirection = Vector3.zero;
+                anim.SetInteger("transition",0);
+            }
+            if(Input.GetKeyUp(KeyCode.A))
+            {
+                moveDirection = Vector3.zero;
+                anim.SetInteger("transition",0);
+            }
+            if(Input.GetKeyUp(KeyCode.D))
+            {
+                moveDirection = Vector3.zero;
+                anim.SetInteger("transition",0);
+            }
         }
-        rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
-        transform.eulerAngles = new Vector3(0, rot, 0);
+        //rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
+        //transform.eulerAngles = new Vector3(0, rot, 0);
 
         moveDirection.y -= gravity * Time.deltaTime;
         moveDirection = transform.TransformDirection(moveDirection);
 
         controller.Move(moveDirection);
     }
+
+
 }

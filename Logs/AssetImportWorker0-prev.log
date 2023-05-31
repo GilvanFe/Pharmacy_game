@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-F:/unity/teste1/My project1
+C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51199
-Successfully changed project path to: F:/unity/teste1/My project1
-F:/unity/teste1/My project1
+55276
+Successfully changed project path to: C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game
+C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ F:/unity/teste1/My project1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12732] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 2390477437 [EditorId] 2390477437 [Version] 1048832 [Id] WindowsEditor(7,Gilvan-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7552] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 46217368 [EditorId] 46217368 [Version] 1048832 [Id] WindowsEditor(7,Gilvan-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12732] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 2390477437 [EditorId] 2390477437 [Version] 1048832 [Id] WindowsEditor(7,Gilvan-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7552] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 46217368 [EditorId] 46217368 [Version] 1048832 [Id] WindowsEditor(7,Gilvan-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 108.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/unity/teste1/My project1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/gilva/OneDrive/Documentos/GitHub/Pharmacy_game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005217 seconds.
+Registered in 0.005566 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.583 seconds
+- Completed reload, in  0.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (583ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (411ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (241ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (115ms)
 				ProcessInitializeOnLoadMethodAttributes (46ms)
@@ -107,35 +107,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003303 seconds.
+Registered in 0.006416 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
+- Completed reload, in  1.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (938ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (728ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
+			SetupTypeCache (269ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (318ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (214ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (243ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -145,12 +145,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (114.6 KB). Loaded Objects now: 3543.
-Memory consumption went from 124.2 MB to 124.1 MB.
-Total: 5.256400 ms (FindLiveObjects: 0.827100 ms CreateObjectMapping: 0.473000 ms MarkObjects: 3.686200 ms  DeleteObjects: 0.267900 ms)
+Unloading 3599 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (222.0 KB). Loaded Objects now: 4079.
+Memory consumption went from 146.0 MB to 145.8 MB.
+Total: 4.731800 ms (FindLiveObjects: 0.453100 ms CreateObjectMapping: 0.409400 ms MarkObjects: 3.659000 ms  DeleteObjects: 0.209200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,193 +165,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1616.405052 seconds.
-  path: Assets/Packs/Water_Pack/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab
-  artifactKey: Guid(b544816461f324e56a39767fdeb5b114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Water_Pack/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab using Guid(b544816461f324e56a39767fdeb5b114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb04b3067846bac6b97a54c8dd38deae') in 0.113225 seconds 
+  Time since last request: 11889.264364 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(fc50d21377df3ab4f943f3f8ddef92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(fc50d21377df3ab4f943f3f8ddef92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b3fe0623f1e0ff1293d4bb9125f555') in 0.040254 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.992901 seconds.
-  path: Assets/Packs/Characters/Knight/prefabs
-  artifactKey: Guid(905dd310f988f664ea1a644cb12375fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Characters/Knight/prefabs using Guid(905dd310f988f664ea1a644cb12375fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5b764fe9cdd7bed942079e55147268') in 0.023002 seconds 
+  Time since last request: 4.666093 seconds.
+  path: Assets/objects
+  artifactKey: Guid(8efbb122bae0c1243b8aa739fbda2b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/objects using Guid(8efbb122bae0c1243b8aa739fbda2b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f9fb7e8d039c3c60f0f3e29d37c021') in 0.003522 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packs/Characters/Knight/prefabs/dagger.prefab
-  artifactKey: Guid(10da2e1a4d41f4e49b33c51561552754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Characters/Knight/prefabs/dagger.prefab using Guid(10da2e1a4d41f4e49b33c51561552754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6943a60986a03285216d576ee4568a2') in 0.568489 seconds 
+  Time since last request: 9.137633 seconds.
+  path: Assets/objects/uploads_files_3557370_desktop+computer.glb
+  artifactKey: Guid(5cd60ef25f0725a4f9ab6a384bd7f56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/objects/uploads_files_3557370_desktop+computer.glb using Guid(5cd60ef25f0725a4f9ab6a384bd7f56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa26babc7c99eaa86b47b774884eeb10') in 0.004501 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packs/Characters/Knight/prefabs/Maul.prefab
-  artifactKey: Guid(e2ee674be93e4be46a07b380f4c31cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Characters/Knight/prefabs/Maul.prefab using Guid(e2ee674be93e4be46a07b380f4c31cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbe815e3c26e6af8230643c1f0b1538') in 0.015289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.811566 seconds.
-  path: Assets/Terrain/New Terrain Layer.terrainlayer
-  artifactKey: Guid(34de2c23e08b9334eb9e5c5b331f19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/New Terrain Layer.terrainlayer using Guid(34de2c23e08b9334eb9e5c5b331f19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb86cb060d5d720615c0d622d5e259') in 0.011665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.586431 seconds.
-  path: Assets/Terrain/grass.terrainlayer
-  artifactKey: Guid(34de2c23e08b9334eb9e5c5b331f19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/grass.terrainlayer using Guid(34de2c23e08b9334eb9e5c5b331f19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a960f8a386a7197d594e5d163ebc8a35') in 0.003649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.825364 seconds.
-  path: Assets/Packs/Characters/Fantasy Monster(wizard) Demo/READ ME(wizard)/001.png
-  artifactKey: Guid(3f99b693cdca0bf42915364af9052841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Characters/Fantasy Monster(wizard) Demo/READ ME(wizard)/001.png using Guid(3f99b693cdca0bf42915364af9052841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf901b30bb6ce4a7e2fa37874866cea2') in 0.172480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Packs/Characters/Fantasy Monster(wizard) Demo/READ ME(wizard)/003.png
-  artifactKey: Guid(1283613db66bc60409e0989253adebd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Characters/Fantasy Monster(wizard) Demo/READ ME(wizard)/003.png using Guid(1283613db66bc60409e0989253adebd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415a9a82cd1fb3212438a28e16274f5') in 0.056121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Packs/UI/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
-  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/UI/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd8655d257e4fd800cba8f9ede16e18') in 0.240056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.348508 seconds.
-  path: Assets/Packs/UI/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
-  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/UI/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ab73f967da9449dd155a58adc8b61e') in 0.044464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/granite_2_d.png
-  artifactKey: Guid(74185a3b54d3e2c41a9cf9eb9e004ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/granite_2_d.png using Guid(74185a3b54d3e2c41a9cf9eb9e004ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3dc7442ace77445568dec2cabf3ce1') in 0.057786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/granite_1_s.png
-  artifactKey: Guid(7aa37b175730e4f4ba64da5204d04874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/granite_1_s.png using Guid(7aa37b175730e4f4ba64da5204d04874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c2c1a957a2274d24c3d46fb7c9a6e8') in 0.080091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/granite_2_o.png
-  artifactKey: Guid(9ea68d206b56f1e4db53dd3779072c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/granite_2_o.png using Guid(9ea68d206b56f1e4db53dd3779072c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450f3b5e86f1c8956a01d193ed768e21') in 0.052902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.267008 seconds.
-  path: Assets/Packs/Environment/GrassFlowers/Textures/Ground/Grass01_BigUV.png
-  artifactKey: Guid(38bb15d6b378aff46b461e248592d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/GrassFlowers/Textures/Ground/Grass01_BigUV.png using Guid(38bb15d6b378aff46b461e248592d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f26bbd0b11027736c634224b12b126') in 0.209306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/grass_1_fixed_o.png
-  artifactKey: Guid(2b395747bd0394e4eabb11400151d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/grass_1_fixed_o.png using Guid(2b395747bd0394e4eabb11400151d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1ba8992ed5375de2c788906dd1a19a') in 0.043372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/grass_1_fixed_r.png
-  artifactKey: Guid(e0cc03dd48a092144a02237abf783829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/grass_1_fixed_r.png using Guid(e0cc03dd48a092144a02237abf783829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c483a6b7d4926c659403bf4023fe23') in 0.066134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 76.633978 seconds.
-  path: Assets/Terrain/ground.terrainlayer
-  artifactKey: Guid(a55d943b2106f9c43a68e3cc35083c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/ground.terrainlayer using Guid(a55d943b2106f9c43a68e3cc35083c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247f2925185ba4ad0fd371fd00a133c9') in 0.003731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.348027 seconds.
-  path: Assets/Packs/Environment/Free_Rocks/_textures/ground_diff_spec.PNG
-  artifactKey: Guid(3a67505ded26145ecbbafc32f569f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Free_Rocks/_textures/ground_diff_spec.PNG using Guid(3a67505ded26145ecbbafc32f569f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64e1de7fe3c047046a752d01f478e09') in 0.116545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.728170 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/dirt_1_fixed_d.png
-  artifactKey: Guid(ca6db4a66e85d9b4e833925ed79e4908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/dirt_1_fixed_d.png using Guid(ca6db4a66e85d9b4e833925ed79e4908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6194b4d41306d18e73aa74e7a303b781') in 0.106334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/dirt_1_fixed_s.png
-  artifactKey: Guid(9703423c0774572449ac6179676463c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/dirt_1_fixed_s.png using Guid(9703423c0774572449ac6179676463c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5d0d3241578661af60e1035574833c') in 0.073654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.168556 seconds.
-  path: Assets/Packs/Environment/Free_Rocks/_textures/rocks_nm.PNG
-  artifactKey: Guid(5048b8ba3627749ca97fb49b9bda9f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Free_Rocks/_textures/rocks_nm.PNG using Guid(5048b8ba3627749ca97fb49b9bda9f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c162815556fe5952c4dae0dbe0b0b8') in 0.425030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.532777 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/charcoal_1_n.png
-  artifactKey: Guid(2627e3196f3da114c9b8bc0021f0fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/charcoal_1_n.png using Guid(2627e3196f3da114c9b8bc0021f0fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d539da593ba31221f3a239b08f1feb') in 0.095333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/cobblestone_wall_1_fixed_h.png
-  artifactKey: Guid(bf2882a64b72592428087977647d839e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/cobblestone_wall_1_fixed_h.png using Guid(bf2882a64b72592428087977647d839e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e042510dc726c0d346e18a31774c57') in 0.096176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/charcoal_1_o.png
-  artifactKey: Guid(8edc028910c1b9745b3f7280d9fadd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/charcoal_1_o.png using Guid(8edc028910c1b9745b3f7280d9fadd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3783a710696c82fce542c82c2b003390') in 0.049732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/charcoal_1_s.png
-  artifactKey: Guid(93bf4be671a8ea44e8b088ad025671bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/charcoal_1_s.png using Guid(93bf4be671a8ea44e8b088ad025671bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fa523ddd6a752acba18e550a38481c') in 0.057428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.508968 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/cobblestone_wall_1_fixed_o.png
-  artifactKey: Guid(8f2216e1f2b76d44eac28335cd000071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/cobblestone_wall_1_fixed_o.png using Guid(8f2216e1f2b76d44eac28335cd000071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d944c2a37e3f832f7b918d8a325bbc') in 0.078784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.607621 seconds.
-  path: Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/cobblestone_wall_1_fixed_s.png
-  artifactKey: Guid(90828a0aa87f9134bb09b0c3ac19da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Mega Fantasy Props Pack/Textures/cobblestone_wall_1_fixed_s.png using Guid(90828a0aa87f9134bb09b0c3ac19da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f29a3adaf6b09d667edd40491e91484') in 0.075927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.860447 seconds.
-  path: Assets/Packs/UI/RPG icons/512X512/Armor_1.png
-  artifactKey: Guid(c8c7982e56eeca14ba2abe46d65f4f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/UI/RPG icons/512X512/Armor_1.png using Guid(c8c7982e56eeca14ba2abe46d65f4f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2855faf7422265418f5f03414c343eab') in 0.065085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.188570 seconds.
-  path: Assets/Packs/Environment/Destructible Decoratives/Textures/destructible decoratives_Metallic.tif
-  artifactKey: Guid(dc7ce8363945e74489c696881bf73948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/Destructible Decoratives/Textures/destructible decoratives_Metallic.tif using Guid(dc7ce8363945e74489c696881bf73948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70317ff66fcd76bcf505d59c0deecf12') in 0.696947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.860429 seconds.
-  path: Assets/Packs/Environment/_TerrainAutoUpgrade/layer_dirt_1_fixed_d(4.000,4.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(31c7a5ddad45b480cadf0c9dd5f7ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/_TerrainAutoUpgrade/layer_dirt_1_fixed_d(4.000,4.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(31c7a5ddad45b480cadf0c9dd5f7ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd04b06829fdc98a86082e978c955034') in 0.041174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packs/Environment/_TerrainAutoUpgrade/layer_ground03(20.000,30.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(1c6f527de7ce9410bb1fb6cc67bbc7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/_TerrainAutoUpgrade/layer_ground03(20.000,30.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(1c6f527de7ce9410bb1fb6cc67bbc7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99fd2b7d22545f49945adb5a3866749') in 0.014235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.156646 seconds.
-  path: Assets/Packs/Environment/_TerrainAutoUpgrade/layer_pavementB_tiling_dirty_ApavementB_tiling_dirty_N(8.000,8.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(11ffec4c5445042d29176b80851d0aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/Environment/_TerrainAutoUpgrade/layer_pavementB_tiling_dirty_ApavementB_tiling_dirty_N(8.000,8.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(11ffec4c5445042d29176b80851d0aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29767d1e1f128e79f2b5026f3eb6dfd4') in 0.004083 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (189.1 KB). Loaded Objects now: 4095.
+Memory consumption went from 143.1 MB to 142.9 MB.
+Total: 2.755400 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.172000 ms MarkObjects: 2.203100 ms  DeleteObjects: 0.120600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
