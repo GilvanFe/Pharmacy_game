@@ -8,7 +8,7 @@ public class ObjectInteraction : MonoBehaviour
 
     private GameObject objectToPickup; // Objeto a ser pego
     private bool isHoldingObject = false;
-    private Vector3 objectHoldOffset = new Vector3(0f, 1f, 1f); // Deslocamento do objeto em relação ao personagem ao ser pego
+    private Vector3 objectHoldOffset = new Vector3(0f, 0.7f, 0.5f); // Deslocamento do objeto em relação ao personagem ao ser pego
 
     private void Update()
     {
@@ -38,7 +38,7 @@ public class ObjectInteraction : MonoBehaviour
         // Desativa a gravidade do objeto
         Rigidbody objectRigidbody = objectToPickup.GetComponent<Rigidbody>();
         objectRigidbody.useGravity = false;
-
+        objectRigidbody.isKinematic = true;
         // Define a posição do objeto em relação ao personagem com o deslocamento especificado
         objectToPickup.transform.position = transform.position + transform.TransformDirection(objectHoldOffset);
 
@@ -53,6 +53,7 @@ public class ObjectInteraction : MonoBehaviour
         // Ativa a gravidade do objeto
         Rigidbody objectRigidbody = objectToPickup.GetComponent<Rigidbody>();
         objectRigidbody.useGravity = true;
+        objectRigidbody.isKinematic = false;
 
         // Remove o objeto como filho do personagem
         objectToPickup.transform.SetParent(null);
