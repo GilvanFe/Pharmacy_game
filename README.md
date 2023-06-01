@@ -1,1 +1,3 @@
 # Pharmacy_game
+Enredo:
+O jogo se passa em uma farmácia, onde pessoas entregam as receitas dos remédios, e o seu trabalho é pegar e preparar todos os remédios e entregá-los o mais rápido possível para ganhar mais pontos. As receitas dos clientes aparecerão por meio de comandas na aba superior da tela, cada comanda terá seus remédios específicos e a quantidade de cada, um tempo máximo será definido para cada pedido, e quanto mais rápido entregue, maior a quantidade de pontos ganhará, cada fase também terá um tempo para ser concluída, e para progredir uma pontuação mínima deve ser conseguida, caso a pontuação seja excedida o jogador ganhará estrelas, no minimo 1 (para passar de fase) e no máximo 3.
