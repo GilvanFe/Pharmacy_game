@@ -42,14 +42,14 @@ public class DetecaoProximidade : MonoBehaviour
                 // Segurar objeto
                 objetoAtual.transform.SetParent(transform); // Define o personagem como pai do objeto
                 objetoAtual.transform.position = transform.position + transform.TransformDirection(offset); // Posiciona o objeto na posicao desejada
-                //objetoAtual.GetComponent<Rigidbody>().isKinematic = true; // Desativa a física do objeto enquanto estiver sendo segurado
+                //objetoAtual.GetComponent<Rigidbody>().isKinematic = true; // Desativa a fisica do objeto enquanto estiver sendo segurado
                 objetoEmMao = true;
             }
             else
             {
                 // Soltar objeto
                 objetoAtual.transform.SetParent(null); // Remove o pai do objeto, colocando-o de volta na cena
-                //objetoAtual.GetComponent<Rigidbody>().isKinematic = false; // Ativa a física do objeto para que a gravidade o afete
+                //objetoAtual.GetComponent<Rigidbody>().isKinematic = false; // Ativa a fisica do objeto para que a gravidade o afete
                 //objetoAtual.GetComponent<Rigidbody>().useGravity = true; // Ativa a gravidade no objeto
                 objetoEmMao = false;
             }

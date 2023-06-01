@@ -351,6 +351,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/HUDController.cs"
 "Assets/Packs/Characters/Fantasy Monster(wizard) Demo/Environment/Scripts/CamCTRLDemo.cs"
 "Assets/Packs/Characters/Fantasy Monster(wizard) Demo/Environment/Scripts/MoveCTRLDemo.cs"
 "Assets/Packs/Environment/Destructible Decoratives/DestroyIt-Ready/Scripts/Behaviors/DestructibleStub.cs"
@@ -365,6 +366,8 @@
 "Assets/Packs/Water_Pack/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs"
 "Assets/Packs/Water_Pack/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs"
 "Assets/scripts/DetecaoProximidade.cs"
+"Assets/scripts/ObjectChecker.cs"
+"Assets/scripts/ObjectInteraction.cs"
 "Assets/scripts/player_controller.cs"
 -langversion:9.0
 
